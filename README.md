@@ -50,10 +50,10 @@ const Header = () => {
   return <h1>Hello World</h1>;
 };
 
-const InstagramPost = () => {
+const InstagramPost = (props) => {
   return (
     <div>
-      <img alt="cat pic" src="imgs/my-img.jpg" />
+      <img alt="cat pic" src="https://d1hjkbq40fs2x4.cloudfront.net/2016-07-16/files/cat-sample_1313-5.jpg" />
       <p>Check out my cute cat!</p>
     </div>
   );
